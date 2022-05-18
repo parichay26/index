@@ -1,0 +1,111 @@
+body{
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-item-text{
+    text-align: center;
+}
+
+.headcontainer{
+    position: relative;
+}
+
+.img1{
+    width:100%;
+}
+
+.headcontainer .headerimgcontent{
+    position: absolute;
+    top: 20%;
+    left:20%;
+    width: 828px;
+    height: 214px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+}
+
+.img2,.img22{
+    width:100%;
+    box-sizing: border-box;
+}
+
+.titles{
+    margin-top: 10vh;
+    display:grid;
+    grid-template-columns:  25fr 6.2fr 25fr 6.2fr 25fr ;
+}
+.titleblock1{
+    grid-column: 1/2;
+}
+.titleblock2{
+    grid-column: 3/4;
+}
+.titleblock3{
+    grid-column: 5/6;
+}
+
+.titleblock1,.titleblock2,.titleblock3{
+    border:black solid 2px;
+    height: 100%;
+}
+
+.cardtitle{
+    margin:15px;
+    text-align: center;
+}
+
+.titletext{
+    margin:20px;
+    padding:10px;
+    text-align: center;
+}
+
+.featured-product{
+    text-align: center;
+    font-size: 50px;
+}
+
+.img22{
+    position:relative;
+}
+
+.titleblock1s{
+    position: relative;
+}
+
+.titles2{
+    position: relative;
+}
+.titles2 .titleblock3,.titles2 .titleblock2,.titles2 .titleblock1{
+    position: relative;
+}
+.shop-now{
+    position:absolute;
+    top:45%;
+    left:74%;
+    height: 35px;
+    width:100px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
